@@ -1,0 +1,10 @@
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\bin\Debug\TOMS.exe.config
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\bin\Debug\TOMS.exe
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\bin\Debug\TOMS.pdb
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\obj\Debug\TOMS.csprojResolveAssemblyReference.cache
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\obj\Debug\TOMS.TableDetails.resources
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\obj\Debug\TOMS.Home.resources
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\obj\Debug\TOMS.Properties.Resources.resources
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\obj\Debug\TOMS.csproj.GenerateResource.Cache
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\obj\Debug\TOMS.exe
+C:\Users\Kent\documents\visual studio 2013\Projects\TOMS\TOMS\obj\Debug\TOMS.pdb
