@@ -1,0 +1,9 @@
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\bin\Release\TOMS.exe.config
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\bin\Release\TOMS.exe
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\bin\Release\TOMS.pdb
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\obj\Release\TOMS.TableDetails.resources
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\obj\Release\TOMS.Home.resources
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\obj\Release\TOMS.Properties.Resources.resources
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\obj\Release\TOMS.csproj.GenerateResource.Cache
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\obj\Release\TOMS.exe
+C:\Users\Mahesh K S\Downloads\TOMS\TOMS\obj\Release\TOMS.pdb
