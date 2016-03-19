@@ -17,8 +17,14 @@ namespace TOMS
         int numOfAvailTables;
         //Number of tables total, hard coded to 9 for now
         int numberOfTables = 9;
-
-        private System() { }
+        List<Table> tableList;
+        private System() {
+            tableList = new List<Table>();
+            for (int i=0; i< numberOfTables; i++)
+            {
+                tableList.Add(new Table(i));
+            }
+        }
 
         public static System Instance
         {
@@ -37,6 +43,10 @@ namespace TOMS
             this.numberOfTables= numberOfTables;
         }
 
+        public Table getTable (int tableId)
+        {
+            return this.tableList.Find(x => x.getTableId() == tableId);
+        }
         public int getNumberofTables()
         {
             return numberOfTables;

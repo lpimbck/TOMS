@@ -14,28 +14,33 @@ namespace TOMS
             Item item;
             int qty;
             
-            ListLineItem(Item item, int qty)
+            public ListLineItem(Item item, int qty)
             {
                 this.item = item;
                 this.qty = qty;
             }
-            ListLineItem(int itemID, int qty)
+            public ListLineItem(int itemID, int qty)
             {
-                //this.item = Item.getItem(itemID);
+                this.item = Menu.Instance.getItem(itemID);
                 this.qty = qty;
             }
 
         }
-        List<Item> itemList { get; set; }
+        List<ListLineItem> itemList { get; set; }
 
-        Order()
+        public Order()
         {
-            itemList = null;
+            itemList = new List<ListLineItem>();
         }
 
-        public void addToOrder (Item itemId, int quantity)
+        public void addToOrder (Item item, int quantity)
         {
-            //this.itemList.Add
+            this.itemList.Add(new ListLineItem(item, quantity));
+        }
+
+        public void addToOrder(int itemId, int quantity)
+        {
+            this.itemList.Add(new ListLineItem(itemId, quantity));
         }
 
     }

@@ -15,7 +15,7 @@ namespace TOMS
         public Home()
         {
             InitializeComponent();
-            button1.Text = "Table 1" + Environment.NewLine + "Customers: 5/8";
+            /*button1.Text = "Table 1" + Environment.NewLine + "Customers: 5/8";
             button2.Text = "Table 2" + Environment.NewLine + "Customers: 5/8";
             button3.Text = "Table 3" + Environment.NewLine + "Customers: 5/8";
             button4.Text = "Table 4" + Environment.NewLine + "Customers: 5/8";
@@ -23,7 +23,7 @@ namespace TOMS
             button6.Text = "Table 6" + Environment.NewLine + "Customers: 5/8";
             button7.Text = "Table 7" + Environment.NewLine + "Customers: 5/8";
             button8.Text = "Table 8" + Environment.NewLine + "Customers: 5/8";
-            button9.Text = "Table 9" + Environment.NewLine + "Customers: 5/8";
+            button9.Text = "Table 9" + Environment.NewLine + "Customers: 5/8";*/
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -31,23 +31,12 @@ namespace TOMS
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void tableClick(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
+            Button tempButton = (Button)sender;
+            Table tempTable = (Table)tempButton.Tag;
+            TableDetails m = new TableDetails();
+            m.Show();
 
         }
 
@@ -55,6 +44,11 @@ namespace TOMS
         {
             TableDetails m = new TableDetails();
             m.Show();
+        }
+
+        private void menuReloadClick (object sender, EventArgs e)
+        {
+            TOMS.Menu.Instance.reloadMenu();
         }
     }
 }
