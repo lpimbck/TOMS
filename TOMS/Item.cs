@@ -7,12 +7,42 @@ using System.Threading.Tasks;
 //This class represent an item with an order
 namespace TOMS
 {
-    class Item
+    public class Item
     {
-        int id;
+        int id { get; set; }
         string name;
         float price;
-        public Item(int id)
+        string description;
+
+        public int getid()
+        {
+            return this.id;
+        }
+        public static string getDescription (Item item)
+        {
+            return item.description;
+        }
+
+        public static string getName(Item item)
+        {
+            return item.name;
+        }
+        public static int getItemId(Item item)
+        {
+            return item.id;
+        }
+        public static float getPrice(Item item)
+        {
+            return item.price;
+        }
+        public Item (int id, string name, string description, float price)
+        {
+            this.id = id;
+            this.name = name;
+            this.description = description;
+            this.price = price;
+        }
+        /*public Item(int id)
         {
             switch (id)
             {
@@ -33,11 +63,17 @@ namespace TOMS
                     this.price = 2.5f;
                     break;
             }
-        }
+           
+        }*/
 
         public string getName(){
             return this.name;
         }
+
+        /*public static Item getItem (int itemID)
+        {
+           // return new Item ()
+        }*/
         public float getPrice()
         {
             return this.price;
